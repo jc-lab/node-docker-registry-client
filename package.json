@@ -3,6 +3,12 @@
     "version": "3.3.0",
     "description": "node.js client for the Docker Registry API",
     "author": "Joyent (joyent.com)",
+    "contributors": [
+        {
+            "name": "Joseph Lee",
+            "email": "development@jc-lab.net"
+        }
+    ],
     "main": "./lib/index.js",
     "dependencies": {
         "assert-plus": "^0.1.5",
@@ -10,7 +16,7 @@
         "bunyan": "1.x >=1.3.3",
         "jws": "3.1.0",
         "jwk-to-pem": "1.2.0",
-        "restify-clients": "^1.4.0",
+        "restify-clients": "^4.0.0",
         "restify-errors": "^3.0.0",
         "strsplit": "1.x",
         "tough-cookie": "2.0.x",
@@ -38,7 +44,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/joyent/node-docker-registry-client.git"
+        "url": "https://github.com/jc-lab/node-docker-registry-client.git"
     },
     "license": "MPL-2.0"
 }
