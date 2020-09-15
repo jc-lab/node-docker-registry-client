@@ -1,6 +1,6 @@
 {
-    "name": "docker-registry-client",
-    "version": "3.3.0",
+    "name": "@jc-lab/docker-registry-client",
+    "version": "3.3.0-jclab1",
     "description": "node.js client for the Docker Registry API",
     "author": "Joyent (joyent.com)",
     "contributors": [
